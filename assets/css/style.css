@@ -32,28 +32,59 @@ body{
 .silver{
     color: #828485;
 }
-.flex-container{
-    display: inline-flex;
-    flex-direction: column;
-    width: 400px;
+.container{
+    display: flex;
+    
 }
+.flex-container{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    
+}
+.flex-text{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+}
+.img3{
+    width: 30%;
+    padding-top: 10px;
+
+}
+.card{
+    text-align: center;
+    background-color: #e8ebe4;
+    width: 400px;
+    border-radius: 10px;
+}
+
+
 .flex-child{
-    display: inline-flex;
+    display: flex;
     border: 1px solid #828485;
     align-items: center;
 }
-img{
+
+.img1{
     clip-path: circle();
-    width: 75px;
+    width: 45px;
     margin: 10px 20px;
+}
+.img2{
+    clip-path: circle();
+    width: 60px;
+    margin: 5px 20px;
 }
 .nameself{
     margin: 0px;
     padding: 3px;
+    width: 145px;
 }
 .icons{
     margin-right: 5px;
-    align-self: flex-end;
+    vertical-align: top;
 }
 .boton{
     border: none;
@@ -61,7 +92,7 @@ img{
     padding: 0px 50px;
 }
 .flex-child-btn{
-    display: inline-flex;
+    display: flex;
     border: 1px solid #828485;
     justify-content: center;
 }
